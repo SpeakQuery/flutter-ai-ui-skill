@@ -94,87 +94,76 @@ When you ask an AI to build a Flutter screen **without this skill**, you get:
 
 ## 📦 Installation
 
-> 💡 **One-time setup.** Update anytime with `git pull` inside the skill folder.
+> 💡 **One command, one-time setup.** The installer only downloads essential skill files — no README, images, or docs. Clean and lightweight.
 
-### ⚡ Antigravity
+### Quick Install (Recommended)
+
+Only downloads what your AI needs: `SKILL.md` + data CSVs + scripts + templates.
+
+```bash
+# Antigravity
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai antigravity
+
+# Claude Code
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai claude
+
+# Cursor
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai cursor
+
+# Windsurf
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai windsurf
+
+# GitHub Copilot
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai copilot
+
+# Gemini CLI
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai gemini
+
+# Kiro / Roo Code / Continue / OpenCode
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai kiro
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai roo
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai continue
+
+# Install for ALL platforms at once
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai all
+```
+
+**What gets installed:**
+```
+SKILL.md                    ← AI reads this
+data/*.csv                  ← Palettes, fonts, animations, components, guidelines
+scripts/*.py                ← Analyser, search, scaffolder
+templates/*/                ← Material 3, Cupertino, Adaptive starters
+```
+No README, CHANGELOG, images, or .github files — only what the AI needs.
+
+### Full Clone (Alternative)
+
+Clone the entire repo if you want everything including docs, examples, and images:
 
 ```bash
 git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
-  .agents/skills/flutter-ai-ui-skill
-```
-Skill auto-activates for all Flutter UI/UX requests. No config needed.
-
-### Claude Code
-
-```bash
-git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
-  .claude/skills/flutter-ai-ui-skill
-```
-Add to `CLAUDE.md`:
-```markdown
-## Active Skills
-- .claude/skills/flutter-ai-ui-skill/SKILL.md
+  .agents/skills/flutter-ai-ui-skill   # Antigravity
 ```
 
-### Cursor
+### Post-Install: Platform Config
 
-```bash
-git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
-  .cursor/skills/flutter-ai-ui-skill
-```
-Add to `.cursor/rules/flutter-ui.mdc`:
-```
-@.cursor/skills/flutter-ai-ui-skill/SKILL.md
-```
+Some platforms need a one-line config after installation:
 
-### Windsurf
+| Platform | Add this line to | Content |
+|----------|-----------------|---------|
+| **Antigravity** | *(no config needed)* | Auto-activates ✨ |
+| **Claude Code** | `CLAUDE.md` | `- .claude/skills/flutter-ai-ui-skill/SKILL.md` |
+| **Cursor** | `.cursor/rules/flutter-ui.mdc` | `@.cursor/skills/flutter-ai-ui-skill/SKILL.md` |
+| **Windsurf** | `.windsurf/rules/flutter-ui.md` | `@.windsurf/skills/flutter-ai-ui-skill/SKILL.md` |
+| **Gemini CLI** | `GEMINI.md` | `- flutter-ai-ui-skill/SKILL.md` |
+| **Copilot** | `.github/copilot-instructions.md` | `See: .github/skills/flutter-ai-ui-skill/SKILL.md` |
+
+### 🔄 Updating
 
 ```bash
-git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
-  .windsurf/skills/flutter-ai-ui-skill
-```
-Add to `.windsurf/rules/flutter-ui.md`:
-```
-@.windsurf/skills/flutter-ai-ui-skill/SKILL.md
-```
-
-### Gemini CLI
-
-```bash
-git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
-  flutter-ai-ui-skill
-```
-Add to `GEMINI.md`:
-```markdown
-## Skills
-- flutter-ai-ui-skill/SKILL.md
-```
-
-### GitHub Copilot
-
-```bash
-git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
-  .github/skills/flutter-ai-ui-skill
-```
-Add to `.github/copilot-instructions.md`:
-```markdown
-## Flutter UI/UX Design Skill
-See instructions: .github/skills/flutter-ai-ui-skill/SKILL.md
-```
-
-### Other Platforms (Kiro · Roo Code · Continue · OpenCode · Zed · Codex · Trae)
-
-```bash
-git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
-  flutter-ai-ui-skill
-```
-Reference `flutter-ai-ui-skill/SKILL.md` in your platform's rules/config file.
-
-### 🔄 Staying Up to Date
-
-```bash
-# Update to the latest version
-cd path/to/flutter-ai-ui-skill && git pull
+# Re-run the same install command to get the latest version
+curl -sSL https://raw.githubusercontent.com/SpeakQuery/flutter-ai-ui-skill/main/install.sh | bash -s -- --ai antigravity
 ```
 
 ---
