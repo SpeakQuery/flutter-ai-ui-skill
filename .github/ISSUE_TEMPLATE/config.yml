@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/SpeakQuery/flutter-ai-ui-skill/discussions
+    about: Ask questions, share what you built, or discuss ideas here.
+  - name: 📖 README / Documentation
+    url: https://github.com/SpeakQuery/flutter-ai-ui-skill#readme
+    about: Check the README for installation and usage instructions.
