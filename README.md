@@ -1,61 +1,108 @@
 <div align="center">
 
-<img src=".github/assets/banner.png" alt="Flutter AI UI Skill" width="100%">
+<img src=".github/assets/banner.png" alt="Flutter AI UI Skill — Design Intelligence for AI Coding Assistants" width="100%">
+
+<br/><br/>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Flutter](https://img.shields.io/badge/Flutter-3.x%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Stars](https://img.shields.io/github/stars/SpeakQuery/flutter-ai-ui-skill?style=for-the-badge&color=yellow)](https://github.com/SpeakQuery/flutter-ai-ui-skill/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
+[![Discussions](https://img.shields.io/badge/Discussions-Open-blueviolet?style=for-the-badge&logo=github)](https://github.com/SpeakQuery/flutter-ai-ui-skill/discussions)
 
 <br/>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Flutter](https://img.shields.io/badge/Flutter-3.x%2B-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
-[![Stars](https://img.shields.io/github/stars/SpeakQuery/flutter-ai-ui-skill?style=social)](https://github.com/SpeakQuery/flutter-ai-ui-skill)
-[![Issues](https://img.shields.io/github/issues/SpeakQuery/flutter-ai-ui-skill)](https://github.com/SpeakQuery/flutter-ai-ui-skill/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+> **The #1 Flutter UI/UX skill for AI coding assistants.**  
+> Stop getting generic Flutter code. Start getting production-ready, beautifully designed apps.
 
-**The most comprehensive Flutter UI/UX skill for AI coding assistants.**  
-Instantly turns any AI into a Flutter design expert.
+<br/>
 
-[**Installation**](#-installation) · [**Features**](#-features) · [**Usage**](#-usage) · [**Examples**](#-examples) · [**Contributing**](#-contributing)
+[📦 **Install Now**](#-installation) &nbsp;·&nbsp; [✨ **See Examples**](#-ui-showcase) &nbsp;·&nbsp; [📖 **Docs**](#-documentation) &nbsp;·&nbsp; [🤝 **Contribute**](CONTRIBUTING.md) &nbsp;·&nbsp; [💬 **Discuss**](https://github.com/SpeakQuery/flutter-ai-ui-skill/discussions)
 
 </div>
 
 ---
 
-## ✨ What is this?
+## 🚀 Why Flutter AI UI Skill?
 
-**Flutter AI UI Skill** is a plug-in skill that supercharges AI coding
-assistants with deep Flutter UI/UX knowledge. Instead of getting generic,
-boilerplate code — you get production-ready, beautifully designed Flutter apps.
+When you ask an AI to build a Flutter screen **without this skill**, you get:
+- ❌ Hardcoded hex colors in every widget
+- ❌ Everything in a single 300-line `build()` method
+- ❌ No dark mode, no accessibility, no semantics
+- ❌ `Image.network()` without caching
+- ❌ Generic, forgettable UI that looks like every other app
 
-<img src=".github/assets/features.png" alt="What's Inside" width="100%">
+**With this skill installed**, you get:
+- ✅ Proper `ThemeData` + `ColorScheme` with dark mode
+- ✅ `const` constructors, `ListView.builder`, extracted widgets
+- ✅ Full accessibility with `Semantics` labels
+- ✅ `CachedNetworkImage`, `ShimmerLoading`, error states
+- ✅ Stunning, memorable UI that matches your app's personality
 
 ---
 
-## 🚀 Features
+## ✨ What's Inside
+
+<img src=".github/assets/features.png" alt="Features Overview" width="100%">
 
 | | Feature | Details |
 |--|---------|---------|
-| 🎨 | **30+ Color Palettes** | App-type specific: healthcare, fintech, gaming, social, e-commerce… with dark mode variants |
-| 🔤 | **15 Font Pairings** | Curated Google Fonts pairs with complete Flutter `TextTheme` usage code |
-| 📋 | **120+ Guidelines** | Searchable dos & don'ts across widgets, state, layout, perf, a11y, theming |
-| 🖼️ | **12 UI Styles** | Material 3, Glassmorphism, Neumorphism, Dark Neon, Claymorphism, Brutalist… |
-| 🛠️ | **3 Templates** | Material 3, Cupertino, and Adaptive multi-platform starters |
-| 🔍 | **Project Analyser** | Scans existing projects and reports anti-patterns with fixes |
-| 🔎 | **Guideline Search** | Keyword/category/severity search across all Flutter UI rules |
-| ⚡ | **Project Scaffolder** | Creates new Flutter projects from templates via CLI |
+| 🎨 | **30+ Color Palettes** | Domain-specific: healthcare, fintech, gaming, e-commerce, social… with full dark mode variants |
+| 🔤 | **15 Font Pairings** | Curated Google Fonts pairs with complete Flutter `TextTheme` + `pubspec.yaml` code |
+| 📋 | **120+ Guidelines** | Searchable dos & don'ts: widgets, state, layout, perf, accessibility, theming, animation |
+| 🎬 | **20 Animation Patterns** | Duration, curve, widget name, and Dart code for every common Flutter animation |
+| 🧩 | **20 Component Blueprints** | Card, FAB, Dialog, Search, List, Loading, Error states — with production-ready snippets |
+| 🛠️ | **3 Starter Templates** | Material 3, iOS Cupertino, and Adaptive multi-platform (mobile + tablet + desktop) |
+| 🔍 | **Project Analyser** | Scans your existing Flutter project for anti-patterns and suggests exact fixes |
+| ⚡ | **Project Scaffolder** | Creates new Flutter projects from templates with a single CLI command |
+| 🖼️ | **12 UI Styles** | Glassmorphism, Dark Neon, Neumorphism, Claymorphism, Brutalist, and more |
+| 🤖 | **13+ AI Platforms** | Works with every major AI coding assistant |
+
+---
+
+## 🖼️ UI Showcase
+
+**See what your AI builds with this skill installed:**
+
+### Material 3 — Clean & Modern
+<img src=".github/assets/showcase_material3.png" alt="Material 3 UI Showcase" width="100%">
+
+> Google Material You design language · Tonal color system · GoRouter · Riverpod · Dark mode built-in
+
+---
+
+### Glassmorphism — Dark & Premium
+<img src=".github/assets/showcase_glassmorphism.png" alt="Glassmorphism UI Showcase" width="100%">
+
+> Frosted glass with `BackdropFilter` · Neon glow accents · Ultra-premium dark aesthetic · Space Grotesk typography
+
+---
+
+### Cupertino — Native iOS Feel
+<img src=".github/assets/showcase_cupertino.png" alt="Cupertino iOS UI Showcase" width="100%">
+
+> Pixel-perfect iOS design · `CupertinoTabScaffold` · `CupertinoListSection` · System blue accent
+
+---
+
+### Adaptive — One App, Every Screen Size
+<img src=".github/assets/showcase_adaptive.png" alt="Adaptive Layout UI Showcase" width="100%">
+
+> Mobile (NavigationBar) → Tablet (NavigationRail) → Desktop (NavigationDrawer) · Single codebase · Flutter's cross-platform superpower
 
 ---
 
 ## 📦 Installation
 
-Choose the method that matches your AI coding assistant:
+> 💡 **One-time setup.** Update anytime with `git pull` inside the skill folder.
 
-### ⚡ Antigravity (Recommended)
+### ⚡ Antigravity
 
 ```bash
 git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
   .agents/skills/flutter-ai-ui-skill
 ```
-
-The skill activates automatically when you ask for Flutter UI/UX work.
+Skill auto-activates for all Flutter UI/UX requests. No config needed.
 
 ### Claude Code
 
@@ -63,10 +110,9 @@ The skill activates automatically when you ask for Flutter UI/UX work.
 git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
   .claude/skills/flutter-ai-ui-skill
 ```
-
-Add to your `CLAUDE.md`:
+Add to `CLAUDE.md`:
 ```markdown
-## Skills
+## Active Skills
 - .claude/skills/flutter-ai-ui-skill/SKILL.md
 ```
 
@@ -76,10 +122,9 @@ Add to your `CLAUDE.md`:
 git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
   .cursor/skills/flutter-ai-ui-skill
 ```
-
 Add to `.cursor/rules/flutter-ui.mdc`:
 ```
-@flutter-ai-ui-skill/SKILL.md
+@.cursor/skills/flutter-ai-ui-skill/SKILL.md
 ```
 
 ### Windsurf
@@ -88,10 +133,9 @@ Add to `.cursor/rules/flutter-ui.mdc`:
 git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
   .windsurf/skills/flutter-ai-ui-skill
 ```
-
 Add to `.windsurf/rules/flutter-ui.md`:
 ```
-@flutter-ai-ui-skill/SKILL.md
+@.windsurf/skills/flutter-ai-ui-skill/SKILL.md
 ```
 
 ### Gemini CLI
@@ -100,10 +144,9 @@ Add to `.windsurf/rules/flutter-ui.md`:
 git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
   flutter-ai-ui-skill
 ```
-
-Add to your `GEMINI.md`:
+Add to `GEMINI.md`:
 ```markdown
-## Active Skills
+## Skills
 - flutter-ai-ui-skill/SKILL.md
 ```
 
@@ -113,25 +156,24 @@ Add to your `GEMINI.md`:
 git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
   .github/skills/flutter-ai-ui-skill
 ```
-
 Add to `.github/copilot-instructions.md`:
 ```markdown
-## Flutter UI/UX Skill
-See: .github/skills/flutter-ai-ui-skill/SKILL.md
+## Flutter UI/UX Design Skill
+See instructions: .github/skills/flutter-ai-ui-skill/SKILL.md
 ```
 
-### Other Platforms (Kiro · Roo Code · Continue · OpenCode · Zed)
+### Other Platforms (Kiro · Roo Code · Continue · OpenCode · Zed · Codex · Trae)
 
 ```bash
 git clone https://github.com/SpeakQuery/flutter-ai-ui-skill \
   flutter-ai-ui-skill
 ```
+Reference `flutter-ai-ui-skill/SKILL.md` in your platform's rules/config file.
 
-Reference `flutter-ai-ui-skill/SKILL.md` in your platform's rules file.
-
-### 🔄 Updating
+### 🔄 Staying Up to Date
 
 ```bash
+# Update to the latest version
 cd path/to/flutter-ai-ui-skill && git pull
 ```
 
@@ -139,104 +181,74 @@ cd path/to/flutter-ai-ui-skill && git pull
 
 ## 💡 Usage
 
-### Auto-Activation (Skill Mode)
+### Auto-Activation
 
-Works on: Antigravity, Claude Code, Cursor, Windsurf, Gemini CLI, Continue
+Works on: **Antigravity, Claude Code, Cursor, Windsurf, Gemini CLI, Continue, OpenCode**
 
-Just ask naturally in your Flutter project:
+Just describe what you want in your Flutter project:
 
 ```
 Build a glassmorphism login screen with email and password
 ```
-
 ```
-Design a fintech dashboard with dark theme and green profit indicators
+Create a fintech dashboard with dark theme, portfolio chart, and green profit indicators
 ```
-
 ```
-Create a healthcare app home screen with a calm, minimal style
+Design a healthcare home screen — calm, accessible, with appointment cards
 ```
-
 ```
-Improve my existing home page — it looks too basic
+Build an e-commerce product page with image carousel, reviews, and add to cart
+```
+```
+Improve my home screen UI — make it look premium and modern
 ```
 
 ### Slash Command Mode
 
-Works on: Kiro, GitHub Copilot, Roo Code
+Works on: **Kiro, GitHub Copilot, Roo Code**
 
 ```
-/flutter-ai-ui Build a settings screen for a fintech app
+/flutter-ai-ui Build a social feed with story bar, post cards, and like animations
 ```
 
 ---
 
-## 🖼️ Examples
+## 🛠️ Scripts
 
-Real screens built with this skill. Browse the [`examples/`](examples/) folder.
-
-| Example | Style | Description |
-|---------|-------|-------------|
-| [Glassmorphism Login](examples/glassmorphism_login/) | Glassmorphism | Frosted glass login with gradient background |
-| *(More coming — contributions welcome!)* | | |
-
-> 💡 **Built something cool with this skill?** [Add your example!](CONTRIBUTING.md)
-
----
-
-## 🛠️ Using the Scripts
-
-### Analyse Your Existing Project
+### Audit Your Existing Project
 
 ```bash
-python scripts/analyse_flutter_project.py --path /path/to/your/flutter/project
+python scripts/analyse_flutter_project.py --path /path/to/your/project
 ```
 
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🎨 Flutter AI UI — Project Audit Report
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📁 Files : 24 Dart files scanned
+  🧱 Ratio : 28% StatefulWidget (✅ target < 30%)
 
-  📁 Project : my_flutter_app
-  🗂️  Files   : 24 Dart files analysed
-  🧱 Widgets : 12 StatefulWidget, 31 StatelessWidget
-  📊 Stateful ratio: 28% (target < 30%) ✅
-
-  🔴 CRITICAL : 2
-  🟠 HIGH     : 5
-  🟡 MEDIUM   : 3
+  🔴 CRITICAL : 2   (hardcoded colors, setState in build)
+  🟠 HIGH     : 5   (no darkTheme, Image.network without cache)
+  🟡 MEDIUM   : 3   (no GoRouter, no useMaterial3)
   🟢 LOW      : 1
 ```
 
 ### Search Guidelines
 
 ```bash
-# Search by keyword
-python scripts/search_guidelines.py --keyword "animation"
-
-# Search by category
+python scripts/search_guidelines.py --keyword "animation" --examples
 python scripts/search_guidelines.py --category "accessibility"
-
-# Filter by severity + show code examples
-python scripts/search_guidelines.py --severity "critical" --examples
-
-# List all categories
+python scripts/search_guidelines.py --severity "critical"
 python scripts/search_guidelines.py --list-categories
 ```
 
-### Create a New Project from Template
+### Scaffold a New Project
 
 ```bash
-# List available templates
 python scripts/create_flutter_project.py --list-templates
-
-# Create Material 3 project
 python scripts/create_flutter_project.py --name my_app --template material3
-
-# Create iOS-native Cupertino project
 python scripts/create_flutter_project.py --name my_app --template cupertino
-
-# Create adaptive multi-platform project
 python scripts/create_flutter_project.py --name my_app --template adaptive
 ```
 
@@ -244,127 +256,136 @@ python scripts/create_flutter_project.py --name my_app --template adaptive
 
 ## 📚 Documentation
 
-### Data Files
+### Data Reference
 
-| File | Contents |
-|------|----------|
-| `data/flutter_colors.csv` | 30+ app-type palettes with light & dark mode hex values |
-| `data/flutter_typography.csv` | 15 Google Fonts pairings with `pubspec.yaml` + Dart code |
-| `data/flutter_animations.csv` | 20 animation patterns (duration, curve, widget, code) |
-| `data/flutter_components.csv` | 20 component blueprints (Card, FAB, Dialog, List, etc.) |
-| `data/stacks/flutter_guidelines.csv` | 120+ Flutter UI guidelines with severity levels |
+| File | Contents | Rows |
+|------|----------|------|
+| `data/flutter_colors.csv` | App-type palettes (light+dark hex) | 30+ |
+| `data/flutter_typography.csv` | Google Fonts pairings + Flutter code | 15 |
+| `data/flutter_animations.csv` | Animation patterns (duration, curve, widget) | 20 |
+| `data/flutter_components.csv` | Component blueprints + code snippets | 20 |
+| `data/stacks/flutter_guidelines.csv` | Flutter UI rules with severity | 120+ |
 
-### Templates
+### Template Reference
 
-| Template | Description |
-|----------|-------------|
-| `templates/material3/` | Material 3 + GoRouter + Riverpod + GoogleFonts + dark mode |
-| `templates/cupertino/` | iOS-native Cupertino + CupertinoTabScaffold + CupertinoListSection |
-| `templates/adaptive/` | Adaptive NavigationBar (mobile) / Rail (tablet) / Drawer (desktop) |
+| Template | Description | Packages |
+|----------|-------------|---------|
+| `templates/material3/` | Material 3 starter | GoRouter, Riverpod, GoogleFonts |
+| `templates/cupertino/` | iOS-native starter | Riverpod, CupertinoWidgets |
+| `templates/adaptive/` | Mobile+Tablet+Desktop | GoRouter, Riverpod, AdaptiveScaffold |
 
----
+### UI Styles Reference
 
-## 🎨 UI Styles Supported
-
-| Style | Description |
-|-------|-------------|
-| Material 3 Clean | Google's latest design language with tonal color |
-| Cupertino Native | iOS-native with system components |
-| Glassmorphism | Frosted glass with `BackdropFilter` + `ImageFilter.blur` |
-| Neumorphism | Soft embossed shadows, monochromatic depth |
-| Dark Neon | Glowing neon accents on dark backgrounds |
-| Claymorphism | Soft, pillowy 3D-like components |
-| Gradient Premium | Rich layered `LinearGradient` / `RadialGradient` |
-| Minimal Flat | Clean, generous whitespace |
-| Brutalist | Bold, raw, high-contrast |
-| Organic Biophilic | Natural forms, earth tones, custom clip paths |
-| Enterprise Dark | Professional dark dashboard aesthetic |
-| Retro/Y2K | Nostalgic, pixel-inspired, bold colors |
+| Style | Key Flutter API |
+|-------|----------------|
+| Material 3 | `ThemeData(useMaterial3: true)`, `ColorScheme.fromSeed` |
+| Glassmorphism | `BackdropFilter`, `ImageFilter.blur`, `BoxDecoration` |
+| Neumorphism | Layered `BoxShadow` with light/dark offset |
+| Dark Neon | Custom `ColorScheme`, glowing `BoxShadow` |
+| Cupertino | `CupertinoApp`, `CupertinoNavigationBar` |
+| Claymorphism | Large `borderRadius`, colored shadow, pastel |
+| Adaptive | `LayoutBuilder`, `NavigationRail`, `NavigationDrawer` |
+| Gradient Premium | `LinearGradient`, `RadialGradient`, `ShaderMask` |
+| Minimal Flat | Zero elevation, precise spacing, `Divider` |
+| Brutalist | Bold borders, mono palette, heavy typography |
+| Organic Biophilic | `ClipPath`, earth tones, organic shapes |
+| Enterprise Dark | Dark surfaces, data-dense, subtle `Divider` |
 
 ---
 
-## 🤖 Supported AI Platforms
+## 🤖 Supported Platforms
 
-| Platform | Method | Status |
-|----------|--------|--------|
-| **Antigravity** | Auto-activation | ✅ Full |
-| **Claude Code** | CLAUDE.md skill | ✅ Full |
-| **Cursor** | Rules file | ✅ Full |
-| **Windsurf** | Rules file | ✅ Full |
-| **GitHub Copilot** | Instructions file | ✅ Full |
-| **Gemini CLI** | GEMINI.md | ✅ Full |
-| **Kiro** | Spec/Hooks | ✅ Full |
-| **Roo Code** | Rules | ✅ Full |
-| **OpenCode** | Config | ✅ Full |
-| **Continue** | Config rules | ✅ Full |
-| **Zed** | Settings | ✅ Full |
-| **Codex CLI** | System prompt | ✅ Full |
-| **Codebuddy** | Rules | ✅ Full |
+| Platform | Mode | Status |
+|----------|------|--------|
+| **Antigravity** | Auto-activation | ✅ |
+| **Claude Code** | CLAUDE.md | ✅ |
+| **Cursor** | Rules file | ✅ |
+| **Windsurf** | Rules file | ✅ |
+| **GitHub Copilot** | Instructions | ✅ |
+| **Gemini CLI** | GEMINI.md | ✅ |
+| **Kiro** | Spec/Hooks | ✅ |
+| **Roo Code** | Rules | ✅ |
+| **Continue** | Config | ✅ |
+| **OpenCode** | Config | ✅ |
+| **Zed** | Settings | ✅ |
+| **Codex CLI** | System prompt | ✅ |
+| **Trae** | SOLO mode | ✅ |
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Repository Structure
 
 ```
 flutter-ai-ui-skill/
-├── SKILL.md                            ← Core AI instruction file (start here)
-├── README.md                           ← This file
-├── CHANGELOG.md                        ← Version history
-├── CONTRIBUTING.md                     ← How to contribute
-├── LICENSE                             ← MIT
+├── SKILL.md                          ← 📖 AI reads this (core instructions)
+├── README.md                         ← 👋 You are here
+├── CHANGELOG.md                      ← 📝 Version history
+├── CONTRIBUTING.md                   ← 🤝 How to contribute
+├── LICENSE                           ← MIT
+│
 ├── .github/
-│   ├── assets/                         ← Images for README
-│   └── ISSUE_TEMPLATE/                 ← Bug report / Feature request templates
+│   ├── assets/                       ← 🖼️ README images
+│   └── ISSUE_TEMPLATE/               ← Bug report & feature request templates
+│
 ├── data/
-│   ├── flutter_colors.csv              ← 30+ color palettes
-│   ├── flutter_typography.csv          ← 15 Google Fonts pairings
-│   ├── flutter_animations.csv          ← 20 animation patterns
-│   ├── flutter_components.csv          ← 20 component blueprints
+│   ├── flutter_colors.csv            ← 🎨 30+ color palettes
+│   ├── flutter_typography.csv        ← 🔤 15 font pairings
+│   ├── flutter_animations.csv        ← 🎬 20 animation patterns
+│   ├── flutter_components.csv        ← 🧩 20 component blueprints
 │   └── stacks/
-│       └── flutter_guidelines.csv      ← 120+ Flutter UI guidelines
+│       └── flutter_guidelines.csv   ← 📋 120+ Flutter UI guidelines
+│
 ├── scripts/
-│   ├── analyse_flutter_project.py      ← Project audit tool
-│   ├── search_guidelines.py            ← Guideline search utility
-│   └── create_flutter_project.py       ← Project scaffolder
+│   ├── analyse_flutter_project.py   ← 🔍 Project audit tool
+│   ├── search_guidelines.py         ← 🔎 Guideline search
+│   └── create_flutter_project.py    ← ⚡ Project scaffolder
+│
 ├── templates/
-│   ├── material3/                      ← Material 3 starter
-│   ├── cupertino/                      ← iOS Cupertino starter
-│   └── adaptive/                       ← Multi-platform adaptive starter
+│   ├── material3/                   ← Material 3 starter
+│   ├── cupertino/                   ← iOS Cupertino starter
+│   └── adaptive/                    ← Multi-platform adaptive starter
+│
 └── examples/
-    ├── README.md                       ← Gallery index
-    └── glassmorphism_login/            ← Frosted glass login example
+    └── glassmorphism_login/         ← 🖼️ Frosted glass login example
 ```
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for:
-- How to add new color palettes
-- How to add new font pairings
-- How to add Flutter guidelines
-- How to submit examples
-- PR process and review guidelines
+We welcome all contributions! Read [CONTRIBUTING.md](CONTRIBUTING.md) for:
+- Adding color palettes, font pairings, guidelines
+- Submitting new templates or examples
+- Fixing bugs in scripts
+- Translating the README
 
 ---
 
 ## 📄 License
 
-MIT License — free to use, modify, and distribute. See [LICENSE](LICENSE).
-
----
-
-## ⭐ Star History
-
-If this skill helps you build better Flutter UIs with AI, please **star the repo** ⭐  
-It helps more Flutter developers discover this tool!
+MIT — free to use in personal and commercial projects. See [LICENSE](LICENSE).
 
 ---
 
 <div align="center">
 
-**Built with ❤️ for the Flutter & AI developer community**
+### ⭐ If this skill saves you time, please star the repo!
 
-[GitHub](https://github.com/SpeakQuery/flutter-ai-ui-skill) · [Issues](https://github.com/SpeakQuery/flutter-ai-ui-skill/issues) · [Discussions](https://github.com/SpeakQuery/flutter-ai-ui-skill/discussions) · [CHANGELOG](CHANGELOG.md)
+*Stars help more Flutter + AI developers discover this tool.*
+
+<br/>
+
+**[github.com/SpeakQuery/flutter-ai-ui-skill](https://github.com/SpeakQuery/flutter-ai-ui-skill)**
+
+<br/>
+
+[🐛 Report Bug](https://github.com/SpeakQuery/flutter-ai-ui-skill/issues/new?template=bug_report.md) &nbsp;·&nbsp;
+[💡 Request Feature](https://github.com/SpeakQuery/flutter-ai-ui-skill/issues/new?template=feature_request.md) &nbsp;·&nbsp;
+[💬 Discussions](https://github.com/SpeakQuery/flutter-ai-ui-skill/discussions) &nbsp;·&nbsp;
+[📋 Changelog](CHANGELOG.md)
+
+<br/>
+
+*Built with ❤️ for the Flutter & AI developer community*
 
 </div>
