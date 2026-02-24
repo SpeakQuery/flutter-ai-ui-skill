@@ -1,0 +1,31 @@
+No,App Type,Primary (Hex),Secondary (Hex),CTA (Hex),Background (Hex),Surface (Hex),Text (Hex),Border (Hex),Dark Primary (Hex),Dark Background (Hex),Dark Surface (Hex),Notes
+1,Social Media,#E11D48,#FB7185,#2563EB,#FFF1F2,#FFFFFF,#881337,#FECDD3,#FB7185,#0F0F14,#1A1A24,Vibrant rose primary + blue engagement CTA
+2,E-commerce,#059669,#10B981,#F97316,#ECFDF5,#FFFFFF,#064E3B,#A7F3D0,#10B981,#0A1A12,#111F18,Success green + urgency orange CTA
+3,E-commerce Luxury,#1C1917,#44403C,#CA8A04,#FAFAF9,#FFFFFF,#0C0A09,#D6D3D1,#EAB308,#0C0A09,#1C1917,Premium dark + gold accent
+4,Healthcare App,#0891B2,#22D3EE,#059669,#ECFEFF,#FFFFFF,#164E63,#A5F3FC,#22D3EE,#071C22,#0E2D37,Calm cyan + health green
+5,Fitness App,#DC2626,#EF4444,#F97316,#FFF5F5,#FFFFFF,#7F1D1D,#FECACA,#EF4444,#1A0808,#2A1010,Energy red + action orange
+6,Financial / Fintech,#0F172A,#1E293B,#22C55E,#F8FAFC,#FFFFFF,#020617,#E2E8F0,#4ADE80,#020617,#0F172A,Professional dark + positive green
+7,Fintech Crypto,#F59E0B,#FBBF24,#8B5CF6,#0F172A,#1E293B,#F8FAFC,#334155,#FBBF24,#0A0A0F,#111118,Gold trust + purple tech
+8,Food Delivery,#EA580C,#F97316,#EF4444,#FFF7ED,#FFFFFF,#7C2D12,#FED7AA,#F97316,#1A0B06,#261511,Appetite orange + urgency red
+9,Travel App,#0369A1,#0EA5E9,#F59E0B,#F0F9FF,#FFFFFF,#0C4A6E,#BAE6FD,#38BDF8,#060F18,#0D1C2E,Trust sky blue + adventure amber
+10,Education / EdTech,#4F46E5,#818CF8,#F97316,#EEF2FF,#FFFFFF,#1E1B4B,#C7D2FE,#818CF8,#0D0B24,#141232,Playful indigo + energetic orange
+11,Kids App,#7C3AED,#A78BFA,#F59E0B,#FAF5FF,#FFFFFF,#1E1B4B,#DDD6FE,#C4B5FD,#0F0B1E,#1A1530,Friendly purple + warm yellow
+12,Gaming,#7C3AED,#A78BFA,#F43F5E,#0F0F23,#1A1A36,#E2E8F0,#4C1D95,#A78BFA,#080810,#10101E,Neon purple + rose action
+13,Productivity Tool,#0D9488,#14B8A6,#F97316,#F0FDFA,#FFFFFF,#134E4A,#99F6E4,#2DD4BF,#061A18,#0C2724,Teal focus + action orange
+14,SaaS General,#2563EB,#3B82F6,#F97316,#F8FAFC,#FFFFFF,#1E293B,#E2E8F0,#60A5FA,#0A1220,#111C2E,Trust blue + conversion orange
+15,Micro SaaS,#6366F1,#818CF8,#10B981,#F5F3FF,#FFFFFF,#1E1B4B,#E0E7FF,#818CF8,#0D0B24,#141232,Indigo + emerald CTA
+16,B2B Enterprise,#0F172A,#334155,#0369A1,#F8FAFC,#FFFFFF,#020617,#E2E8F0,#94A3B8,#020617,#0F172A,Navy professional + blue CTA
+17,Analytics Dashboard,#1E40AF,#3B82F6,#F59E0B,#F8FAFC,#FFFFFF,#1E3A8A,#DBEAFE,#60A5FA,#060A18,#0D1228,Blue data + amber highlights
+18,Music / Audio,#7C3AED,#A78BFA,#EC4899,#0F0F23,#1A1A36,#E2E8F0,#4C1D95,#C4B5FD,#080810,#10101E,Dark neon purple + pink energy
+19,News / Media,#111827,#1F2937,#B91C1C,#F9FAFB,#FFFFFF,#030712,#E5E7EB,#6B7280,#030712,#111827,Editorial dark + alert red
+20,Real Estate,#065F46,#059669,#D97706,#ECFDF5,#FFFFFF,#022C22,#A7F3D0,#34D399,#030F09,#061812,Trust green + gold premium
+21,Dating App,#DB2777,#EC4899,#8B5CF6,#FDF2F8,#FFFFFF,#831843,#FBCFE8,#F472B6,#1A0613,#270D1E,Passionate pink + purple
+22,Mental Health / Wellness,#7C3AED,#A78BFA,#10B981,#FAF5FF,#FFFFFF,#1E1B4B,#EDE9FE,#C4B5FD,#0F0B1E,#181530,Calming purple + healing green
+23,Yoga / Meditation,#65A30D,#84CC16,#0D9488,#F7FEE7,#FFFFFF,#1A2E05,#D9F99D,#BEF264,#0A1603,#101F06,Natural lime + teal serenity
+24,Beauty / Cosmetics,#DB2777,#EC4899,#F59E0B,#FDF2F8,#FFFFFF,#831843,#FBCFE8,#F472B6,#1A0613,#270D1E,Rose beauty + gold luxury
+25,Weather App,#0369A1,#0EA5E9,#F59E0B,#EFF6FF,#FFFFFF,#1E3A8A,#BFDBFE,#7DD3FC,#060A18,#0A1025,Sky blue + sun amber
+26,Portfolio / Personal,#18181B,#3F3F46,#2563EB,#FAFAFA,#FFFFFF,#09090B,#E4E4E7,#71717A,#09090B,#18181B,Monochrome + accent blue
+27,Government / Public,#0F172A,#334155,#0284C7,#F8FAFC,#FFFFFF,#020617,#E2E8F0,#64748B,#020617,#0F172A,High-contrast navy + blue
+28,Agriculture / Farm,#15803D,#22C55E,#92400E,#F0FDF4,#FFFFFF,#052E16,#BBF7D0,#4ADE80,#02100A,#061A0F,Earth green + harvest brown
+29,Logistics / Delivery,#1D4ED8,#3B82F6,#F59E0B,#EFF6FF,#FFFFFF,#1E3A8A,#BFDBFE,#60A5FA,#060A18,#0D1228,Reliable blue + amber accent
+30,Smart Home / IoT,#0F172A,#1E293B,#06B6D4,#F8FAFC,#FFFFFF,#020617,#E2E8F0,#22D3EE,#020617,#0F172A,Dark tech + cyan connectivity

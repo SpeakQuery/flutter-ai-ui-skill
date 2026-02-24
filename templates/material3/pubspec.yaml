@@ -1,0 +1,29 @@
+name: flutter_material3_starter
+description: A new Flutter application with Material 3 theming and dark mode support.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Navigation
+  go_router: ^14.0.0
+  # State management
+  flutter_riverpod: ^2.5.1
+  # Fonts
+  google_fonts: ^6.2.1
+  # Images
+  cached_network_image: ^3.4.1
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
